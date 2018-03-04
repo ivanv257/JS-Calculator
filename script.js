@@ -1,17 +1,17 @@
 
 // add, subtract, multiply and divide functions for Calculator
-add = (num) => {
-  return num + num;
+add = (numA, numB) => {
+  return numA + numB;
 }
 
-subtract = (num) => {
-  return num - num;
+subtract = (numA, numB) => {
+  return numA - numB;
 }
 
-multiply = (num) => {
-  return num * num;
+multiply = (numA, numB) => {
+  return numA * numB;
 }
 
-divide = (num) => {
-  return num / num;
+divide = (numA, numB) => {
+  return numA / numB;
 }
