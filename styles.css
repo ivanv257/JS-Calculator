@@ -51,7 +51,7 @@ table {
 	height: 350px;
 	width: 280px;
 	grid-template-columns: auto auto auto auto;
-	grid-template-rows: auto auto auto auto auto auto;
+	grid-template-rows: repeat(5, 1fr) 3fr; /* unsure if this is the correct code */
 
 }
 
