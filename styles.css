@@ -42,3 +42,8 @@ table {
 	border-spacing: 0;
 }
 /* reset template end - start for Ivan's CSS */
+
+
+.grid-container {
+	display: grid;
+}
