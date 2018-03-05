@@ -46,4 +46,7 @@ table {
 
 .grid-container {
 	display: grid;
+	height: 50px;
+	width: 30px;
+	grid-column-gap: 10px;
 }
