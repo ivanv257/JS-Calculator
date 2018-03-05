@@ -61,10 +61,13 @@ table {
 	text-align: center;
 	display: inline-block;
 	position: relative;
+	font-family: 'Roboto', sans-serif;
+
 }
 
 #equals {
 	background-color: #3399ff;
+
 }
 
 .unit::after {
