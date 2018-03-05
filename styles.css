@@ -56,7 +56,7 @@ table {
 }
 
 .unit {
-	padding: 10px;
+	padding: 25px;
 	border: 1px solid #d9d9d9;
 	text-align: center;
 	display: inline-block;
@@ -67,8 +67,8 @@ table {
 
 #equals {
 	background-color: #3399ff;
+	}
 
-}
 
 .unit::after {
 	content: '';
@@ -90,5 +90,5 @@ table {
 
 #resultScreen {
 	grid-column: 1/5;
-	grid-row: 1/4;
+	grid-row: 1/5;
 }
