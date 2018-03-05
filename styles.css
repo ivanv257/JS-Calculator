@@ -44,6 +44,7 @@ table {
 /* reset template end - start for Ivan's CSS */
 
 
+
 .grid-container {
 	margin-top: 125px;
 	display: grid;
@@ -58,10 +59,30 @@ table {
 	padding: 10px;
 	border: 1px solid #d9d9d9;
 	text-align: center;
+	display: inline-block;
+	position: relative;
 }
 
 #equals {
 	background-color: #3399ff;
+}
+
+.unit::after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	transform: scaleX(0);
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: #3399ff;
+	transform-origin: bottom right;
+	transition: transform 0.25s ease-out;
+}
+
+.unit:hover::after{
+	transform: scaleX(1);
+	transform-origin: bottom left;
 }
 
 #resultScreen {
