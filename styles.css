@@ -48,6 +48,11 @@ table {
 	display: grid;
 	height: 150px;
 	width: 130px;
-	grid-column-gap: 10px;
 	grid-template-columns: auto auto auto auto;
+
+}
+
+.unit {
+	padding: 10px;
+	border: 1px solid #d9d9d9;
 }
