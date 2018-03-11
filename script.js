@@ -16,3 +16,5 @@ divide = (numA, numB) => {
   return numA / numB;
 }
 
+
+const resultScreen = document.querySelector('#resultScreen');
