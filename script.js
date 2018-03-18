@@ -17,11 +17,18 @@ divide = (numA, numB) => {
 
 
 const resultScreen = document.querySelector('#resultScreen');
-
 const buttons = document.querySelectorAll('.unit');
 
 buttons.forEach((button) => {
   button.addEventListener('click', (e) => {
     resultScreen.innerHTML = button.id;
+
+    if (button == 'resultScreen') {
+      clearResult()
+    }
   })
 })
+
+clearResult = () => {
+  resultScreen.textContent = '';
+};
