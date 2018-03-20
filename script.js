@@ -24,7 +24,3 @@ buttons.forEach((button) => {
     resultScreen.innerHTML = button.id;
   })
 })
-
-clearResult = () => {
-  resultScreen.textContent = '';
-};
